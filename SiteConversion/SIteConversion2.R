@@ -126,7 +126,7 @@ conversion_data$new_user<- as.factor(conversion_data$new_user)
  
  rfmodel2<- randomForest(y=conversion_data.train$converted, x= conversion_data.train[ , -c(5,ncol(conversion_data.train))],
                          ytest = conversion_data.test$converted, xtest = conversion_data.test[, -c(5,ncol(conversion_data.test))], 
-                         mtry=3, ntree = 100, keep.forest = TRUE)
+                         mtry=3, ntree = 100, keep.forest = TRUE, classwt = c(0.7, 0.3))
 
 rfmodel2
  # When an important predictor variable is removed the error rate has gone up.!
@@ -140,5 +140,14 @@ partialPlot(rfmodel2, conversion_data.train, source, 1)
 partialPlot(rfmodel2, conversion_data.train, new_user, 1)
 
 
+#Insights from the model 
+# 1. The site is working well for young people. Tell marketing to market in places where young people hang out
+# 2. The Chinese Version of the site is not doing well. Ask product to fix this. Translation might not be good or some other issue or it is 
+# english for people who only understand Chinese language
+# 3. Germans are converting well but Germans are not coming to the site. Tell marketing to target germans.
+# 4. If someone has visited and browsed through number of pages, She/he defnitely has purchase intent. Convert these kind of customers by sending 
+# followup emails with product. Low hanging fruits who can easily convert.
+# 5. Conversion rate is dropping after 30 yrs of age. The UI might not be good for older ppl. 
+# 6. Users with Old accounts are easy targets, easily convertable. Ask marketing to run a campaign around those type of users. 
 
 
