@@ -3,9 +3,9 @@ This folder consists of an R script to predict the conversion of a site.
 It provides insights into site conversion.
 It also has suggestions for product and marketing team.
 
-The job is to learn and extract insights from this data. 
+The job is to learn and extract insights from this data. <br>
 
-The data is of the form 
+The data is of the form <br>
 "country","age","new_user","source","total_pages_visited","converted"
 "UK",25,1,"Ads",1,0
 "US",23,1,"Seo",5,0
