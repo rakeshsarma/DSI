@@ -110,3 +110,19 @@ conversion_matrix_join$ratio <- conversion_matrix_join$convert_to_payment.conf_p
 # We are also losing around ~93 % of the people from payment page to payment confirmation page. Tell marketing to send emails to these non converted people.
 # The people might have dropped off looking at the price. Tell marketing to send a discount voucher which is valid for limited amt of time.
 
+# Now, Lets see the conversion to payment conformation page from device perspective
+
+conversion_to_payment_page_by_device_matrix<-funneltbl %>%
+  group_by(device) %>%
+  summarise(convert_to_paymentpage=sum(payment.page))
+
+conversion_to_payment.conf_page_by_device_matrix<- funneltbl %>%
+  group_by(device) %>%
+  summarise(convert_to_payment_conf.page=sum(payment_conf.page))
+
+conversion_matrix_by_device_join<-left_join(conversion_to_payment_page_by_device_matrix, conversion_to_payment.conf_page_by_device_matrix, by="device")
+conversion_matrix_by_device_join$ratio<- conversion_matrix_by_device_join$convert_to_payment_conf.page/conversion_matrix_by_device_join$convert_to_paymentpage
+
+#Seems like gender is not the issue but device used is an issue. There's a drastic change in conversion ratio when device is changed.
+# It has more to do with product interface than gender. Mobile is doing much better than Desktop site. Conversion can be increased by 100% in desktop. 
+#Ask product to run A/B tests on website interface.
