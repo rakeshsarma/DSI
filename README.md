@@ -1,7 +1,7 @@
  DSI
 This folder consists of R scripts for practical business applications.
 
-1. Site Conversion: Uses Random forest algo to estimate the site conversion rate from Country, age, new_user, site_source and total_pages_visited variables. Contains insights to product and marketing teams
+1. <b><i>Site Conversion: </b></i> Uses Random forest algo to estimate the site conversion rate from Country, age, new_user, site_source and total_pages_visited variables. Contains insights to product and marketing teams
 Insights from the model 
 i)  The site is working well for young people. Tell marketing to market in places where young people hang out. <br>
 ii) The Chinese Version of the site is not doing well. Ask product to fix this. Translation might not be good or some other issue or it is English for people who only understand Chinese language. <br>
@@ -12,7 +12,7 @@ viii)  Users with Old accounts are easy targets, easily convertible. Ask marketi
 
 
 
-2. Funnel Conversion: Website funnel analysis to observer the behavior of converted users. 
+2. <b><i>Funnel Conversion:</b></i> Website funnel analysis to observer the behavior of converted users. <br>
 i) The behavior of male and female users is almost same.<br>
 ii) Conversion rate is almost same for each gender. <br>
 iii) The issue is with device used to access the site. <br>
