@@ -1,7 +1,7 @@
  DSI
 This folder consists of R scripts for practical business applications.
 
-1. <b><i>Site Conversion: </b></i> Uses Random forest algo to estimate the site conversion rate from Country, age, new_user, site_source and total_pages_visited variables. Contains insights to product and marketing teams
+1. <b><i>Site Conversion: </b></i> Uses Random forest algo to estimate the site conversion rate from Country, age, new_user, site_source and total_pages_visited variables. <br>Contains insights to product and marketing teams
 Insights from the model 
 i)  The site is working well for young people. Tell marketing to market in places where young people hang out. <br>
 ii) The Chinese Version of the site is not doing well. Ask product to fix this. Translation might not be good or some other issue or it is English for people who only understand Chinese language. <br>
