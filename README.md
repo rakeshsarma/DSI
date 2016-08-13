@@ -10,15 +10,15 @@ Insights from the model
 *  If someone has visited and browsed through number of pages, she/he definitely has purchase intent. Convert these kinds of customers by sending 
 * Follow-up emails with product. Low hanging fruits that can easily convert.
 *  Conversion rate is dropping after 30 yrs. of age. The UI might not be good for older ppl. 
-*  Users with Old accounts are easy targets, easily convertible. Ask marketing to run a campaign around those types of users. 
+*  Users with Old accounts are easy targets, easily convertible. Ask marketing to run a campaign around those types of users. <br>
 
 
 
 2. Funnel Conversion: Website funnel analysis to observer the behavior of converted users. 
-* The behavior of male and female users is almost same.
-* Conversion rate is almost same for each gender.
-* The issue is with device used to access the site.
-* Mobile device's conversion rate is 100% higher than desktop site.
-* The problem is with product. Ask product to run A/B tests to test the layout of the desktop site to increase conversion rate.
-* Product can start with imitating the layout of mobile App on desktop/ web version.
+i) The behavior of male and female users is almost same.
+ii) Conversion rate is almost same for each gender.
+iii) The issue is with device used to access the site.
+iv) Mobile device's conversion rate is 100% higher than desktop site.
+v) The problem is with product. Ask product to run A/B tests to test the layout of the desktop site to increase conversion rate.
+vi) Product can start with imitating the layout of mobile App on desktop/ web version.
 
