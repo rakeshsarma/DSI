@@ -21,3 +21,7 @@ iv) Mobile device's conversion rate is 100% higher than desktop site. <br>
 v) The problem is with product. Ask product to run A/B tests to test the layout of the desktop site to increase conversion rate.<br>
 vi) Product can start with imitating the layout of mobile App on desktop/ web version. <br>
 
+3. <b><i>AB Testing on a site:</b></i> AB test and measuring if the test was conducted properly to statistically conclude the validity of the results . <br>
+<i><u>Insights from the model</u></i><br> 
+i) The test was not conducted properly.<br>
+<i><u>Insights from the model</u></i><br> 
