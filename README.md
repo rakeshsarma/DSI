@@ -23,5 +23,7 @@ vi) Product can start with imitating the layout of mobile App on desktop/ web ve
 
 3. <b><i>AB Testing on a site:</b></i> AB test and measuring if the test was conducted properly to statistically conclude the validity of the results . <br>
 <i><u>Insights from the model</u></i><br> 
-i) The test was not conducted properly.<br>
+i) From the t-statistic, we can say that the test was not conducted properly.<br>
+ii) There's some bias introduced in the test. <br>
+iii) The test was conducted only for five days. So, enough data is not availble to drow meaningful conclusions. <br>
 
