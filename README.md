@@ -24,4 +24,4 @@ vi) Product can start with imitating the layout of mobile App on desktop/ web ve
 3. <b><i>AB Testing on a site:</b></i> AB test and measuring if the test was conducted properly to statistically conclude the validity of the results . <br>
 <i><u>Insights from the model</u></i><br> 
 i) The test was not conducted properly.<br>
-<i><u>Insights from the model</u></i><br> 
+
