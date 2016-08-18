@@ -25,5 +25,5 @@ vi) Product can start with imitating the layout of mobile App on desktop/ web ve
 <i><u>Insights from the model</u></i><br> 
 i) From the t-statistic, we can say that the test was not conducted properly.<br>
 ii) There's some bias introduced in the test. <br>
-iii) The test was conducted only for five days. So, enough data is not availble to drow meaningful conclusions. <br>
+iii) The test was conducted only for five days. So, enough data is not availble to draw meaningful conclusions. <br>
 
